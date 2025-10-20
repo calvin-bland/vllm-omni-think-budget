@@ -10,7 +10,7 @@ from contextlib import contextmanager
 from dataclasses import replace
 from functools import lru_cache
 from pathlib import Path
-from typing import TYPE_CHECKING, Any, TypeVar
+from typing import TYPE_CHECKING, Any, TypeVar, Optional
 
 import torch
 from pydantic import ConfigDict, Field
