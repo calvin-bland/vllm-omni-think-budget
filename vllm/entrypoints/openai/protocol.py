@@ -6,7 +6,7 @@
 import json
 import time
 from http import HTTPStatus
-from typing import Annotated, Any, ClassVar, Generic, Literal, TypeAlias, TypeVar
+from typing import Annotated, Any, ClassVar, Generic, Literal, TypeAlias, TypeVar, Optional
 
 import regex as re
 import torch
