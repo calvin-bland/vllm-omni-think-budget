@@ -7,7 +7,7 @@ import warnings
 from dataclasses import field
 from enum import Enum, IntEnum
 from functools import cached_property
-from typing import Annotated, Any
+from typing import Annotated, Any, Optional
 
 import msgspec
 from pydantic.dataclasses import dataclass
